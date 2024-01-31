@@ -1,0 +1,18 @@
+{
+  "name": "@petsafe/api",
+  "version": "1.0.0",
+  "description": "The API for the Petsafe platform. Keep your pets safe with Petsafe.",
+  "scripts": {
+    "clear": "rm -rf dist",
+    "build": "pnpm clear && tsc"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "prisma": "^5.9.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.13"
+  }
+}
