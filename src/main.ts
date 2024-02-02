@@ -1,6 +1,5 @@
-function main() {
-	let a: number = 5;
-	console.log(`The value of a is ${a}`);
-}
+import express from "express";
 
-main();
+const app = express();
+
+app.listen(8080, () => console.log("Server is now listening at port 8080"));
